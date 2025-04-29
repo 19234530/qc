@@ -1,0 +1,68 @@
+/* Membership Page CSS (membership.css) */
+
+/* Membership Page Specific Styles */
+/* Progress Bar */
+.progress {
+    height: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  .step-indicator {
+    font-weight: 700;
+  }
+  
+  /* Form Steps */
+  .step-1, .step-2, .step-3 {
+    background: white;
+    border-radius: 8px;
+  }
+  
+  /* Form Elements */
+  .form-control, .form-select {
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+  }
+  
+  .btn-primary {
+    background-color: #0d6efd;
+    border: none;
+  }
+  
+  /* Payment Section */
+  #paypal-button-container {
+    min-height: 40px;
+    margin: 1rem 0;
+  }
+  
+  #bankTransferDetails {
+    margin-top: 1rem;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+ .step-indicator {
+   width: 30px!important;
+   height: 30px!important;
+   font-size: 0.8rem;
+  }
+    
+ .small {
+  font-size: 0.7rem;
+  }
+  }
+
+  /* membership.css */
+ .step-indicator {
+    width: 40px;
+    height: 40px;
+  }
+  
+  #formProgress {
+    width: 33%;
+  }
+  

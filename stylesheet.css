@@ -1,0 +1,79 @@
+/* Main CSS File (stylesheet.css) - For the index.html page */
+
+/* General Styles */
+body {
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 400;
+}
+
+/* Features Section */
+.row.text-center div {
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.row.text-center div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* About Section */
+.bg-light {
+  background-color: #f8f9fa!important;
+}
+
+.img-fluid.rounded.shadow {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Class Schedule Section */
+.table-responsive {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table thead th {
+  font-weight: 700;
+}
+
+/* Testimonials Section */
+.card.bg-secondary {
+  background-color: #6c757d!important;
+  border: none;
+}
+
+/* Footer Styles */
+.social-btns .btn {
+  margin-right: 0.5rem;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+  
+  .row.text-center div {
+    margin-bottom: 1rem;
+  }
+}
+
+
+
